@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <Button fx:id="btnBuscar" layoutX="497.0" layoutY="90.0" mnemonicParsing="false" onAction="#buscarPocion" prefHeight="51.0" prefWidth="147.0" text="Buscar" />
+      <Label layoutX="78.0" layoutY="48.0" text="Poción: " />
+      <TextField fx:id="txtNombrePocion" layoutX="78.0" layoutY="90.0" prefHeight="51.0" prefWidth="397.0" />
+      <TextArea fx:id="areaShow" layoutX="78.0" layoutY="204.0" prefHeight="351.0" prefWidth="397.0" />
+      <Button fx:id="btnAdd" layoutX="497.0" layoutY="440.0" mnemonicParsing="false" onAction="#goToAddPocion" prefHeight="115.0" prefWidth="177.0" text="Gestionar pociones" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btnListar" layoutX="497.0" layoutY="299.0" mnemonicParsing="false" onAction="#listarPociones" prefHeight="115.0" prefWidth="177.0" text="Listar pociones" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>

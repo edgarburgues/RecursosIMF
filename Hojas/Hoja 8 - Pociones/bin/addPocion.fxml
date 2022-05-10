@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControladorAddPocion">
+   <children>
+      <Button fx:id="btnAddPocion" layoutX="269.0" layoutY="304.0" mnemonicParsing="false" onAction="#addPotion" text="Añadir poción" />
+      <Label layoutX="65.0" layoutY="124.0" text="Nombre:" />
+      <TextField fx:id="txtNombre" layoutX="211.0" layoutY="116.0" />
+      <TextField fx:id="txtNivel" layoutX="211.0" layoutY="200.0" />
+      <Label layoutX="65.0" layoutY="208.0" text="Nivel:" />
+      <Label layoutX="171.0" layoutY="23.0" text="Añadir pociones">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
