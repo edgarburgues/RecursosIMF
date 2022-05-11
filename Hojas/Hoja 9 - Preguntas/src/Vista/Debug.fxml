@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.Debug">
+   <children>
+      <Label layoutX="40.0" layoutY="28.0" text="Sentencia: " />
+      <TextField fx:id="txtSentencia" layoutX="41.0" layoutY="69.0" prefHeight="51.0" prefWidth="550.0" />
+      <Button fx:id="btnExecSentencia" layoutX="604.0" layoutY="69.0" mnemonicParsing="false" onAction="#execSentencia" prefHeight="51.0" prefWidth="74.0" text="Go" />
+      <Button fx:id="btnListPreguntas" layoutX="428.0" layoutY="147.0" mnemonicParsing="false" onAction="#listPreguntas" prefHeight="51.0" prefWidth="74.0" text="Go" />
+      <TextArea fx:id="areaShow" editable="false" layoutX="47.0" layoutY="382.0" prefHeight="200.0" prefWidth="631.0" />
+      <Label layoutX="296.0" layoutY="155.0" text="Preguntas:" />
+      <Label layoutX="47.0" layoutY="155.0" text="Carlos" />
+      <Button fx:id="btnListCarlos" layoutX="127.0" layoutY="147.0" mnemonicParsing="false" onAction="#listCarlos" prefHeight="51.0" prefWidth="74.0" text="Go" />
+      <Button fx:id="btnLeerFichero" layoutX="610.0" layoutY="290.0" mnemonicParsing="false" onAction="#leerFicheroInsertPregunta" prefHeight="51.0" prefWidth="74.0" text="Go" />
+      <TextField fx:id="txtNombreArchivo" layoutX="47.0" layoutY="290.0" prefHeight="51.0" prefWidth="550.0" />
+      <Label layoutX="47.0" layoutY="243.0" text="Nombre Fichero (sin .txt)" />
+   </children>
+</AnchorPane>

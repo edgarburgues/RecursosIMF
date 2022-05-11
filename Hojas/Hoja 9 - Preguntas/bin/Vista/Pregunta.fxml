@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.Pregunta">
+   <children>
+      <RadioButton fx:id="radio1" layoutX="269.0" layoutY="404.0" mnemonicParsing="false">
+         <toggleGroup>
+            <ToggleGroup fx:id="respuesta" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="radio2" layoutX="311.0" layoutY="404.0" mnemonicParsing="false" toggleGroup="$respuesta" />
+      <RadioButton fx:id="radio3" layoutX="353.0" layoutY="404.0" mnemonicParsing="false" toggleGroup="$respuesta" />
+      <RadioButton fx:id="radio4" layoutX="395.0" layoutY="404.0" mnemonicParsing="false" toggleGroup="$respuesta" />
+      <RadioButton fx:id="radio5" layoutX="437.0" layoutY="404.0" mnemonicParsing="false" toggleGroup="$respuesta" />
+      <TextArea fx:id="areaPregunta" layoutX="76.0" layoutY="167.0" prefHeight="123.0" prefWidth="571.0" />
+      <Label layoutX="21.0" layoutY="404.0" text="No estoy de acuerdo" />
+      <Label layoutX="496.0" layoutY="404.0" text="Muy de acuerdo" />
+      <Label fx:id="etiText" layoutX="334.0" layoutY="58.0" text="Label" />
+      <Button fx:id="btnSiguiente" layoutX="297.0" layoutY="519.0" mnemonicParsing="false" onAction="#goToPregunta" text="Siguiente" />
+   </children>
+</AnchorPane>

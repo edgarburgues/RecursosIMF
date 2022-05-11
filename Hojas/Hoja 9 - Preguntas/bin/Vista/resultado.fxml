@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.Resultado">
+   <children>
+      <Label fx:id="nombreCarlos" layoutX="132.0" layoutY="50.0" prefHeight="47.0" prefWidth="478.0" text="Nombre tipo Carlos" textAlignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="areaTexto" layoutX="64.0" layoutY="367.0" prefHeight="200.0" prefWidth="595.0" />
+      <ImageView fx:id="imgCarlos" fitHeight="216.0" fitWidth="288.0" layoutX="371.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

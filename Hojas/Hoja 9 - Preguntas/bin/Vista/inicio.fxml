@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.Controlador">
+   <children>
+      <Button fx:id="btnDebug" layoutX="530.0" layoutY="519.0" mnemonicParsing="false" onAction="#goToDebug" prefHeight="74.0" prefWidth="136.0" text="Debug" />
+      <Label layoutX="118.0" layoutY="64.0" text="¿Qué Carlos eres hoy?">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="249.0" layoutY="233.0" text="Introduce tu nombre:" />
+      <TextField fx:id="txtNombre" layoutX="213.0" layoutY="290.0" />
+      <Button fx:id="btnJugar" layoutX="291.0" layoutY="427.0" mnemonicParsing="false" onAction="#goToPregunta" text="Jugar">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
